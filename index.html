@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Apuestas.net</h1>
+    </header>
+    <main>
+      <section>
+        <figure>
+          <img src="../formulario/pictures/pexels-cottonbro-6963329.jpg" width="20%" alt="fichas de apuestas">
+          <figcaption>Apuestas en linea</figcaption>
+        </figure>
+      </section>
+      <section id="formulario">
+        <h3>Registrate</h3>
+        <form action="">
+          <label for="nombre">
+            <span>Nombre</span>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" autocomplete="name" required>
+          </label>
+          <br>
+          <label for="correo">
+            <span>Correo</span>
+            <input type="email" name="correo" id="correo" placeholder="ejem: @gmail.com" autocomplete="email" required>
+          </label>
+          <br>
+          <label for="documento">
+            <span>Numero de Identidad</span>
+            <input type="number" name="documento" id="documento" autocomplete="cc-number" required>
+          </label>
+          <br>
+          <label for="codigo-postal">
+            <span>Codigo Postal</span>
+            <input type="number" name="codigo-postal" id="codigo-postal" autocomplete="postal-code" required>
+          </label>
+          <br>
+          <input type="submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      Apuestas legales 
+    </footer>
+  </body>
+</html>
