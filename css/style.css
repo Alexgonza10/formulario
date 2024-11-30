@@ -23,6 +23,11 @@ header
   text-align: center;
 }
 
+input
+{
+  border-radius: 6px;
+}
+
 figure
 {
   text-align: center;
@@ -34,8 +39,13 @@ figure
   margin: 10px;
 }
 
+#calendario
+{
+  text-align: center;
+}
+
 footer
 {
-  margin: 136px;
+  margin: 10px;
   text-align: center;
 }
