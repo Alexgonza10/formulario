@@ -15,7 +15,7 @@
 html
 {
   /*background-color: bisque;*/
-  background: linear-gradient(var(--primary), var(--primary-dark));
+  background: linear-gradient(var(--primary), var(--secondary));
 }
 
 header
@@ -26,6 +26,8 @@ header
 input
 {
   border-radius: 6px;
+  padding: 4px;
+  margin: 6px;
 }
 
 figure
@@ -33,15 +35,28 @@ figure
   text-align: center;
 }
 
+span
+{
+  padding: 4px;
+  margin: 4px;
+}
+
 #formulario
 {
   text-align: center;
-  margin: 10px;
+  margin: 6px;
+  padding: 6px;
+  border: var(--gray3) solid 6px;
+  border-radius: 10px;
 }
 
 #calendario
 {
   text-align: center;
+  margin: 6px;
+  padding: 6px;
+  border: var(--gray3) solid 6px;
+  border-radius: 10px;
 }
 
 footer
