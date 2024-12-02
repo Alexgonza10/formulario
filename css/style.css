@@ -14,8 +14,12 @@
 
 html
 {
-  /*background-color: bisque;*/
-  background: linear-gradient(var(--primary), var(--secondary));
+  background: linear-gradient(var(--gray3), var(--gray2));
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header
